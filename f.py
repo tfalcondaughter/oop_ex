@@ -9,11 +9,11 @@ def find_b(word):
         else:
             bb_c = 0
 
-        if bb_c == 2:
+        if bb_c >= 2:
             bb += 1
 
     return b, bb
 
 
 w = input()
-find_b(w)
+print(find_b(w))
