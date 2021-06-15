@@ -7,7 +7,7 @@ class TestF(unittest.TestCase):
     def setUp(self):
         self.res = f.find_b('abbbbabbab')
 
-    def test_word_abbbbabbab(self, res):
+    def test_word_abbbbabbab(self):
         self.assertEqual(self.res, (7, 4))
 
 
