@@ -13,3 +13,7 @@ def find_b(word):
             bb += 1
 
     return b, bb
+
+
+w = input()
+find_b(w)
